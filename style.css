@@ -67,7 +67,7 @@ li .buttons_sub {
     font-weight: bolder;
 }
 
-.article_photo_1 {
+.article_section_1 {
     width: 1000px;
     background-color: white;
     margin: 100px auto;
@@ -86,4 +86,14 @@ li .buttons_sub {
     text-align: center;
     color: black;
 }
-
+.article_section_2 {
+    width: 700px;
+    height: 1000px;
+    background-color: cadetblue;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: centre;
+    color:black;
+    
+}
