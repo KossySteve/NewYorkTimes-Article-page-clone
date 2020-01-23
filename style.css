@@ -3,6 +3,8 @@ body {
     text-align: center;
 }
 .nav_bar {
+    position: fixed;
+    top: 0px;
     background-color: white;
     border: 1px solid gray;
     border-right: 0px;
@@ -10,6 +12,7 @@ body {
     height: 50px;
     color: black;
     font-family: Arial, Helvetica, sans-serif;
+    z-index: 1;
 }
 ul li {
     display: inline;
@@ -64,9 +67,23 @@ li .buttons_sub {
     font-weight: bolder;
 }
 
+.article_photo_1 {
+    width: 1000px;
+    background-color: white;
+    margin: 100px auto;
+    text-align: left;
+    color: grey;
+    position: relative;
+    right: -50px;
+}
+
 .article_header {
     font-family: georgia;
     position: relative;
     left: -100px;
     font-weight: bolder;
+    font-size: 40px;
+    text-align: center;
+    color: black;
 }
+
