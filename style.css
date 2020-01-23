@@ -88,12 +88,13 @@ li .buttons_sub {
 }
 .article_section_2 {
     width: 700px;
-    height: 1000px;
     background-color: cadetblue;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-    text-align: centre;
     color:black;
-    
+    text-align: left;
+    font-family: nyt-imperial,georgia,'times new roman',times,serif;
+    font-size: 1.25rem;
+    line-height: 1.875rem    
 }
