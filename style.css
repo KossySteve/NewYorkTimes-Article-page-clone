@@ -98,3 +98,47 @@ li .buttons_sub {
     font-size: 1.25rem;
     line-height: 1.875rem    
 }
+
+
+.recirculation {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 75% 25%;
+    padding: 10px;
+}
+
+.thumb-list {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 300px;
+}
+
+img.thumb-img {
+    width: 275px;
+}
+
+h1.trending-item {
+    font-size: 1.1875rem;
+    line-height: 1.4375rem;
+    padding: 15px 0;
+    text-align: left;
+    font-style: normal;
+}
+
+h3.title-item {
+    font-size: 14px;
+    text-align: left;
+    font-style: normal;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+}
+
+.sub-meta {
+    color: silver;
+    float: left;
+    font-family: nyt-imperial, georgia, 'times new roman', times, serif;
+}
+
+.title-recirc {
+    text-align: left;
+}
