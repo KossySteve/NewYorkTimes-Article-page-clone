@@ -95,7 +95,7 @@ li .buttons_sub {
 .article_section_2 {
     position: relative;
     width: 700px;
-    background-color : yellowgreen;
+    background-color : white;
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
@@ -161,13 +161,13 @@ li .buttons_sub {
     height: 70em;
     margin: 0 auto;
     margin-bottom: 40px;
-    background-color: hotpink;
+    background-color:white;
     top: -15px;
    
 }
 .article_section_3a {
     text-align: left;
-    background-color: ivory;
+    background-color:white;
     width:72%;
     height:70em;
     float: left;
@@ -176,7 +176,7 @@ li .buttons_sub {
     color: black;
 }
 .article_section_3b {
-    background-color:brown;
+    background-color:white;
     width:25%;
     height:70em;
     margin: 0;
@@ -185,7 +185,7 @@ li .buttons_sub {
     text-align: left;
 }
 .thumbnail {
-    background-color: coral;
+    background-color: white;
     width: calc(33.3333% - 20px);
     height: 38%;
     float: left;
@@ -201,7 +201,7 @@ li .buttons_sub {
     height: 38em;
     margin: 0 auto;
     margin-top: 100px;
-    background-color: hotpink;
+    background-color: white;
     position: relative;
     top: 300px;
     left: 2px;
@@ -261,7 +261,7 @@ li .buttons_sub {
     font-size: small;
 }
 .footer {
-    background-color: burlywood;
+    background-color:gray;
     text-align: center;
     height: 80px;
     width: 100%;
@@ -279,7 +279,7 @@ li .buttons_sub {
 }
 .footer ul li a {
     text-decoration: none;
-    color: grey;
+    color: white;
     font-size: 25px;
     
 }
