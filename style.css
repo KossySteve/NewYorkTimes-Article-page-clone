@@ -7,7 +7,7 @@ body {
     top: 0px;
     left: 0;
     background-color: white;
-    border: 1px solid gray;
+    border-bottom: 1px solid gray;
     border-right: 0px;
     width: 100%;
     height: 50px;
@@ -216,6 +216,10 @@ li .buttons_sub {
     position: relative;
     left: -10px;
 }
+.line_breaks {
+    line-height: 2px;
+    font-weight: bolder;
+}
 .end_of_page__links_container {
     clear: both;
 }
@@ -238,4 +242,51 @@ li .buttons_sub {
     color: black;
     text-decoration:none;
     text-align: left;
+}
+.more_links {
+    clear: both;
+    text-align: center;
+}
+.more_links ul li {
+    display: inline;
+    margin: 10px;
+    text-align: center;
+    position: relative;
+    left: 10px;
+    
+}
+.more_links ul li a {
+    text-decoration: none;
+    color: grey;
+    font-size: small;
+}
+.footer {
+    background-color: burlywood;
+    text-align: center;
+    height: 80px;
+    width: 100%;
+    border-top: 2px solid gray;
+    margin-top: 20px;
+    position: fixed;
+    left: 0;
+    bottom:-1px ;
+}
+.footer ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: auto;
+}
+.footer ul li a {
+    text-decoration: none;
+    color: grey;
+    font-size: 25px;
+    
+}
+.expand {
+    float: right;
+    margin-right: 100px;
+}
+a:hover {
+    text-decoration: underline;
 }
