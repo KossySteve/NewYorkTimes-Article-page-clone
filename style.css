@@ -303,8 +303,7 @@ a:hover {
 }
 
 .footer {
-  background-color: white;
-  border-top: 1px solid grey;
+  background-color: gray;
   bottom: -1px;
   box-sizing: border-box;
   height: 80px;
