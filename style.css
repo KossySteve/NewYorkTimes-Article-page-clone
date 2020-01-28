@@ -15,6 +15,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     z-index: 1;
 }
+
 nav ul li {
     display: inline;
     margin-left: 0px;
@@ -22,6 +23,7 @@ nav ul li {
     list-style-type: none;
     color: black;
 }
+
 nav ul li a {
     color: black;
 
@@ -35,6 +37,7 @@ nav ul li i:first-child {
 nav ul li i:nth-child(2) {
     float: left;
 }
+
 a.space_cosmos {
     float: left;
     color: black;
@@ -81,6 +84,54 @@ li .buttons_sub {
     color: grey;
     position: relative;
     right: -50px;
+}
+.editors_pick_container {
+    width: 100%;
+    height: auto;
+
+}
+.unlock_articles {
+    width: 300px;
+    height: 100px;
+    margin: 10px auto;
+}
+
+.editors_pick {
+    display: block;
+    list-style-type: none;
+    float: right;
+    width: 400px;
+    height: 550px;
+    background-color:white;
+    position: relative;
+    top: -350px;
+    left: -20px;
+    text-align: left;
+}
+
+.editors_pick ul li {
+    list-style-type: none;
+    display: block;
+}
+.editors_pick_container p {
+    font-size:20px;
+    margin: 10px;
+}
+.editors_pick ul li img {
+    width: 30%;
+    height: 30%;
+    position: relative;
+    left: -35px;
+    margin-right: 20px;
+}
+
+.editors_pick_text {
+    font-size: 20px;
+    float: right;
+    position: relative;
+    top: 15px;
+    left: -120px;
+    
 }
 
 .article_header {
