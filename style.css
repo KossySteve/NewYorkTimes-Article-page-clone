@@ -43,7 +43,7 @@ nav ul li i:nth-child(2) {
   text-decoration: none;
 }
 
-li .buttons_login {
+.buttons_login {
   background-color: #326891;
   border: 0;
   border-radius: 5px;
@@ -145,8 +145,8 @@ li .buttons_sub {
 }
 
 .article_section_2 ul li:first-child {
-  margin-right: 90px;
   left: -51px;
+  margin-right: 90px;
   position: relative;
 }
 
@@ -242,8 +242,8 @@ li .buttons_sub {
   margin: 0 auto;
   margin-top: 100px;
   position: relative;
-  top: 300px;
   text-align: left;
+  top: 300px;
   width: 90%;
 }
 
@@ -303,7 +303,7 @@ a:hover {
 }
 
 .footer {
-  background-color: gray;
+  background-color: white;
   border-top: 2px solid gray;
   bottom: -1px;
   height: 80px;
