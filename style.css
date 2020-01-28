@@ -51,9 +51,9 @@ nav ul li i:nth-child(2) {
   float: right;
   font-weight: bolder;
   height: 40px;
-  position: relative;
   margin-left: 5px;
   margin-right: 5px;
+  position: relative;
   top: -10px;
   width: 80px;
 }
