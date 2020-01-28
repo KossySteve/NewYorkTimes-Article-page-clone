@@ -304,7 +304,7 @@ a:hover {
 
 .footer {
   background-color: white;
-  border-top: 2px solid gray;
+  border-top: 1px solid gray;
   bottom: -1px;
   height: 80px;
   left: 0;
@@ -315,7 +315,7 @@ a:hover {
 }
 
 .footer ul li a {
-  color: white;
+  color: black;
   font-size: 25px;
   text-decoration: none;
 }
