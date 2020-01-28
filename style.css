@@ -304,7 +304,7 @@ a:hover {
 
 .footer {
   background-color: white;
-  border-top: 1px solid gray;
+  border: 1px solid gray;
   bottom: -1px;
   height: 80px;
   left: 0;
