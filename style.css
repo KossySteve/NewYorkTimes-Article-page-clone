@@ -1,3 +1,9 @@
+*,
+*: before,
+*: after {
+  box-sizing: border-box;
+}
+
 body {
   background-color: white;
   text-align: center;
@@ -304,8 +310,7 @@ a:hover {
 
 .footer {
   background-color: white;
-  border: 1px solid gray;
-  box-sizing: border-box;
+  border-top: 1px solid grey;
   bottom: -1px;
   height: 80px;
   left: 0;
