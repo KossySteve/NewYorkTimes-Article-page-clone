@@ -48,8 +48,8 @@ li .buttons_login {
   border: 0;
   border-radius: 5px;
   color: white;
-  font-weight: bolder;
   float: right;
+  font-weight: bolder;
   position: relative;
   top: -10px;
   margin-left: 5px;
@@ -63,6 +63,7 @@ li .buttons_sub {
   background-color: #326891;
   border: 0;
   border-radius: 5px;
+  box-sizing: border-box;
   color: white;
   float: right;
   font-weight: bolder;
@@ -139,7 +140,8 @@ li .buttons_sub {
 
 .more_links ul li {
   display: inline;
-  margin: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
   position: relative;
   left: 10px;
   text-align: center;
@@ -172,6 +174,7 @@ li .buttons_sub {
   background-color: #326891;
   border: 0;
   border-radius: 5px;
+  box-sizing: border-box;
   color: white;
   font-weight: bolder;
   height: 40px;
@@ -186,10 +189,11 @@ li .buttons_sub {
   background-color: gray;
   border: 0;
   border-radius: 15px;
+  box-sizing: border-box;
   float: right;
   height: 30px;
-  padding: 2px;
   margin-left: 20px;
+  padding: 2px;
   width: 30px;
 }
 
@@ -309,11 +313,12 @@ a:hover {
 .footer {
   background-color: gray;
   border-top: 2px solid gray;
+  box-sizing: border-box;
   height: 80px;
   margin-top: 20px;
   position: fixed;
-  left: 0;
   bottom: -1px;
+  left: 0;
   text-align: center;
   width: 100%;
 }
@@ -331,17 +336,18 @@ a:hover {
 
 /* aside section */
 
-#aside-editors {
+.aside-editors {
   float: right;
   height: 300px;
   position: relative;
-  left: -10px;
   bottom: -850px;
+  left: -10px;
   text-align: left;
   width: 300px;
 }
 
-img.thumb-mini {
+.thumb-mini {
+  box-sizing: border-box;
   float: left;
   height: 75px;
   padding-right: 5px;
@@ -349,8 +355,8 @@ img.thumb-mini {
 }
 
 .picks-title {
-  font-size: 13px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 13px;
   font-weight: normal;
   margin: 0;
 }
@@ -360,8 +366,8 @@ img.thumb-mini {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.picks-main-title,
-.editors-picks-links {
+.editors-picks-links,
+.picks-main-title {
   color: black;
   text-decoration: none;
 }
@@ -370,7 +376,7 @@ img.thumb-mini {
   height: 90px;
 }
 
-#meta-info {
+.meta-info {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 11px;
 }
