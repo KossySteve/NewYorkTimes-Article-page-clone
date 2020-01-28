@@ -104,7 +104,7 @@ li .buttons_sub {
 
 .article_header {
   color: black;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 40px;
   font-weight: bolder;
   position: relative;
@@ -347,7 +347,6 @@ a:hover {
 }
 
 .thumb-mini {
-  box-sizing: border-box;
   float: left;
   height: 75px;
   padding-right: 5px;
@@ -355,15 +354,15 @@ a:hover {
 }
 
 .picks-title {
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 13px;
   font-weight: normal;
   margin: 0;
 }
 
 .picks-main-title {
-  font-size: 13px;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
 }
 
 .editors-picks-links,
