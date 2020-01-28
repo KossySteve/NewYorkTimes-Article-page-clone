@@ -87,51 +87,18 @@ li .buttons_sub {
 }
 .editors_pick_container {
     width: 100%;
-    height: auto;
+    height: 100px;
 
 }
 .unlock_articles {
-    width: 300px;
+    width: 250px;
     height: 100px;
-    margin: 10px auto;
+    margin: 0px auto;
 }
 
-.editors_pick {
-    display: block;
-    list-style-type: none;
-    float: right;
-    width: 400px;
-    height: 550px;
-    background-color:white;
-    position: relative;
-    top: -350px;
-    left: -20px;
-    text-align: left;
-}
-
-.editors_pick ul li {
-    list-style-type: none;
-    display: block;
-}
-.editors_pick_container p {
-    font-size:20px;
+.unlock_articles p {
     margin: 10px;
-}
-.editors_pick ul li img {
-    width: 30%;
-    height: 30%;
-    position: relative;
-    left: -35px;
-    margin-right: 20px;
-}
-
-.editors_pick_text {
-    font-size: 20px;
-    float: right;
-    position: relative;
-    top: 15px;
-    left: -120px;
-    
+    font-size: 18px;
 }
 
 .article_header {
@@ -350,7 +317,7 @@ a:hover {
     height: 300px;
     text-align: left;
     position: relative;
-    right: -40px;
+    left: -10px;
     bottom: -850px;
 }
 
@@ -364,7 +331,7 @@ img.thumb-mini {
 .picks-title {
     font-size: 13px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight:normal;
+    font-weight: normal;
     margin: 0;
 }
 
