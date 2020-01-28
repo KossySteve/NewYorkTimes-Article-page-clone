@@ -50,20 +50,19 @@ li .buttons_login {
   color: white;
   float: right;
   font-weight: bolder;
+  height: 40px;
   position: relative;
   top: -10px;
   margin-left: 5px;
   margin-right: 5px;
   padding: 5px;
   width: 80px;
-  height: 40px;
 }
 
 li .buttons_sub {
   background-color: #326891;
   border: 0;
   border-radius: 5px;
-  box-sizing: border-box;
   color: white;
   float: right;
   font-weight: bolder;
@@ -107,8 +106,8 @@ li .buttons_sub {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 40px;
   font-weight: bolder;
-  position: relative;
   left: -100px;
+  position: relative;
   text-align: center;
 }
 
@@ -132,8 +131,8 @@ li .buttons_sub {
 }
 
 .footer ul li {
-  list-style-type: none;
   display: inline-block;
+  list-style-type: none;
   margin-top: 20px;
   margin-left: auto;
 }
@@ -142,15 +141,15 @@ li .buttons_sub {
   display: inline;
   margin-left: 10px;
   margin-right: 10px;
-  position: relative;
   left: 10px;
+  position: relative;
   text-align: center;
 }
 
 .article_section_2 ul li:first-child {
   margin-right: 90px;
-  position: relative;
   left: -51px;
+  position: relative;
 }
 
 .article_section_2 ul li a i {
@@ -174,7 +173,6 @@ li .buttons_sub {
   background-color: #326891;
   border: 0;
   border-radius: 5px;
-  box-sizing: border-box;
   color: white;
   font-weight: bolder;
   height: 40px;
@@ -189,7 +187,6 @@ li .buttons_sub {
   background-color: gray;
   border: 0;
   border-radius: 15px;
-  box-sizing: border-box;
   float: right;
   height: 30px;
   margin-left: 20px;
@@ -337,11 +334,11 @@ a:hover {
 /* aside section */
 
 .aside-editors {
+  bottom: -850px;
   float: right;
   height: 300px;
-  position: relative;
-  bottom: -850px;
   left: -10px;
+  position: relative;
   text-align: left;
   width: 300px;
 }
