@@ -395,3 +395,7 @@ hr {
 .editors-pick-article {
   height: 90px;
 }
+
+#telescope-img {
+  width: 100%;
+}

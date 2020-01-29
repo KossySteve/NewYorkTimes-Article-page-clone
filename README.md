@@ -1,6 +1,6 @@
 # The New York Times Page Clone
 
-This project is part of the Microverse program in which we have created a clone page of The New York Times article.
+This project is part of the Microverse program in which we have created a clone page of The New York Times article. For the construction of this page we have used CSS positioning and float.
 
 ![screenshot](./screenshot.png)
 
@@ -23,7 +23,7 @@ This project is part of the Microverse program in which we have created a clone 
 
 👤 **Manuel Muhun**
 
-- Github: [@meme-es](https://github.com/githubhandle)
+- Github: [@meme-es](https://github.com/meme-es)
 - Twitter: [@meme_es](https://twitter.com/meme_es)
 - Linkedin: [linkedin](https://www.linkedin.com/in/manuel-elias-b289a638/)
 
