@@ -1,5 +1,6 @@
 body {
   background-color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
 }
 
@@ -273,7 +274,7 @@ li .buttons_sub {
   width: 100%;
 }
 
-.article_section_4 {
+.footer {
   background-color: white;
   clear: both;
   height: 38em;
@@ -294,15 +295,24 @@ li .buttons_sub {
   float: right;
   left: -10px;
   position: relative;
+  text-decoration: none;
+  color: grey;
 }
 
 .line_breaks {
   font-weight: bolder;
-  line-height: 2px;
+  line-height: 0.2px;
+  margin-top: 2px;
+}
+
+.lb_1 {
+  position: relative;
+  top: -1px;
 }
 
 .end_of_page__links_container {
   clear: both;
+  font-size: 14px;
 }
 
 .end_of_page__links {
@@ -348,31 +358,32 @@ hr {
 /* aside section */
 
 .aside-editors {
-  bottom: -850px;
+  bottom: -750px;
   float: right;
   height: 300px;
-  left: -10px;
+  left: -90px;
   position: relative;
   text-align: left;
-  width: 300px;
+  width: 270px;
 }
 
 .thumb-mini {
   float: left;
   height: 75px;
   width: 75px;
+  margin: 3px;
 }
 
 .picks-title {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: normal;
   margin: 0;
 }
 
 .picks-main-title {
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .editors-picks-links,
@@ -383,9 +394,4 @@ hr {
 
 .editors-pick-article {
   height: 90px;
-}
-
-.meta-info {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 11px;
 }
