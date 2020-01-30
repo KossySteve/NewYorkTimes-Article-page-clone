@@ -1,8 +1,8 @@
 body {
   background-color: white;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  text-align: center;
   overflow-x: hidden;
+  text-align: center;
 }
 
 .nav_bar {
@@ -179,11 +179,11 @@ li .buttons_sub {
 }
 
 .inflation_text {
-  text-align: left;
   font-size: larger;
   line-height: 18px;
-  width: 850px;
   margin: 0 auto;
+  text-align: left;
+  width: 850px;
 }
 
 .inflation_text p {
@@ -359,8 +359,8 @@ a:hover {
 
 .more_links {
   clear: both;
-  text-align: center;
   padding-bottom: 55px;
+  text-align: center;
 }
 
 .more_links a {
@@ -422,8 +422,7 @@ hr {
   background-color: white;
   border-top: 1px solid black;
   bottom: 0;
-  box-sizing: border-box;
-  height: 55px;
+  height: 37px;
   left: 0;
   padding-top: 18px;
   position: fixed;
@@ -433,6 +432,11 @@ hr {
 
 .footer-element {
   display: inline;
+}
+
+.footer-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
 }
 
 .align-right {
