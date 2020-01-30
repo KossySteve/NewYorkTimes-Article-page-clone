@@ -1,8 +1,8 @@
 body {
   background-color: white;
-  font-family: Georgia, 'Times New Roman', Times, serif; 
-  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   overflow-x: hidden;
+  text-align: center;
 }
 
 body > * {
