@@ -1,7 +1,12 @@
 body {
   background-color: white;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif; 
   text-align: center;
+  overflow-x: hidden;
+}
+
+body > * {
+  max-width: 100%;
 }
 
 .nav_bar {
@@ -143,6 +148,7 @@ li .buttons_sub {
 
 .inflation_image_thumbnail {
   float: left;
+  font-size: smaller;
   height: 200px;
   left: -30px;
   margin: -7px;
@@ -153,6 +159,7 @@ li .buttons_sub {
 
 .inflation_image_thumbnail_2 {
   float: left;
+  font-size: smaller;
   height: 200px;
   left: -30px;
   margin: -7px;
@@ -164,9 +171,9 @@ li .buttons_sub {
 .inflation_text {
   font-size: larger;
   left: 190px;
-  line-height: 18px;
   position: relative;
   text-align: left;
+  line-height: 18px;
 }
 
 .inflation_text p {
@@ -292,11 +299,11 @@ li .buttons_sub {
 }
 
 .links_header a {
-  color: grey;
   float: right;
   left: -10px;
   position: relative;
   text-decoration: none;
+  color: grey;
 }
 
 .line_breaks {
@@ -305,14 +312,10 @@ li .buttons_sub {
   margin-top: 2px;
 }
 
-.lb_1 {
-  position: relative;
-  top: -1px;
-}
-
 .end_of_page__links_container {
   clear: both;
   font-size: 14px;
+  margin-bottom: 60px;
 }
 
 .end_of_page__links {
@@ -370,8 +373,8 @@ hr {
 .thumb-mini {
   float: left;
   height: 75px;
-  margin: 3px;
   width: 75px;
+  margin: 3px;
 }
 
 .picks-title {
@@ -396,6 +399,36 @@ hr {
   height: 90px;
 }
 
-.telescope-img {
+.footer_navbar_container {
+  background-color: white;
+  border-top: 1px solid grey;
+  bottom: -1px;
+  height: 55px;
+  position: fixed;
+  right: 0;
+  text-align: center;
   width: 100%;
+  z-index: 1;
+}
+
+.footer_navbar {
+  left: -30px;
+  position: relative;
+  top: -10px;
+}
+
+.footer_navbar a {
+  color: grey;
+  font-size: larger;
+  margin: 30px;
+  margin-right: 10px;
+  position: relative;
+  text-decoration: none;
+  top: -5px;
+}
+
+.expand {
+  color: grey;
+  float: right;
+  margin-right: 60px;
 }
