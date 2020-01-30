@@ -129,44 +129,60 @@ li .buttons_sub {
   margin-left: 10px;
 }
 
-.inflation_img {
-  background: url(assets/the_universe.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 700px;
-  left: 40px;
-  margin: 30px auto;
+.inflation {
+  font-size: 85%;
+  overflow: hidden;
+  margin: 0 auto;
   position: relative;
   text-align: left;
-  width: 80%;
+  width: 850px;
 }
 
-.inflation_image_thumbnail {
-  float: left;
-  height: 200px;
-  left: -30px;
-  margin: -7px;
-  position: relative;
-  top: 160px;
-  width: calc(25% - 10px);
+.inflation-img {
+  display: block;
+  width: 100%;
 }
 
-.inflation_image_thumbnail_2 {
-  float: left;
-  height: 200px;
-  left: -30px;
-  margin: -7px;
-  position: relative;
-  top: 350px;
-  width: calc(25% - 10px);
+.paragraph {
+  margin: 0;
+}
+
+.row1 {
+  position: absolute;
+  top: 24%;
+}
+
+.row2 {
+  position: absolute;
+  top: 74%;
+}
+
+.col1 {
+  left: 0;
+  width: 24.5%;
+}
+
+.col2{
+  left: 25.5%;
+  width: 24.5%;  
+}
+
+.col3 {
+  left: 51%;
+  width: 24.5%;  
+}
+
+.col4 {
+  left: 76.5%;
+  width: 24.5%;  
 }
 
 .inflation_text {
-  font-size: larger;
-  left: 190px;
-  line-height: 18px;
-  position: relative;
   text-align: left;
+  font-size: larger;
+  line-height: 18px;
+  width: 850px;
+  margin: 0 auto;
 }
 
 .inflation_text p {
