@@ -2,6 +2,7 @@ body {
   background-color: white;
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
+  overflow-x: hidden;
 }
 
 .nav_bar {
@@ -131,8 +132,8 @@ li .buttons_sub {
 
 .inflation {
   font-size: 85%;
-  overflow: hidden;
   margin: 0 auto;
+  overflow: hidden;
   position: relative;
   text-align: left;
   width: 850px;
@@ -359,6 +360,7 @@ a:hover {
 .more_links {
   clear: both;
   text-align: center;
+  padding-bottom: 55px;
 }
 
 .more_links a {
@@ -414,4 +416,37 @@ hr {
 
 .telescope-img {
   width: 100%;
+}
+
+.footer-more {
+  background-color: white;
+  border-top: 1px solid black;
+  bottom: 0;
+  box-sizing: border-box;
+  height: 55px;
+  left: 0;
+  padding-top: 18px;
+  position: fixed;
+  right: 0;
+  text-align: center;
+}
+
+.footer-element {
+  display: inline;
+}
+
+.align-right {
+  float: right;
+  padding-right: 10%;
+}
+
+.expand-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  padding-right: 40px;
+}
+
+.expand-icon {
+  color: black;
 }
