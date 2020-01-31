@@ -309,7 +309,7 @@ li .buttons_sub {
   width: 1100px;
 }
 
-.links_header img {
+.button-logo {
   float: left;
 }
 
@@ -468,4 +468,16 @@ hr {
 
 .space {
   height: 16px;
+}
+
+a.text-link {
+  text-decoration: none;
+}
+
+a.text-link:visited {
+  color: black;
+}
+
+a.text-link:hover {
+  color: silver;
 }
