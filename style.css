@@ -199,11 +199,15 @@ li .buttons_sub {
 
 .more_links ul li {
   display: inline;
-  left: 10px;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 4px;
+  margin-right: 4px;
   position: relative;
   text-align: center;
+}
+
+.more_links ul {
+  margin: 0;
+  padding: 0;
 }
 
 .article_section_2 ul li:first-child {
@@ -248,60 +252,59 @@ li .buttons_sub {
 }
 
 .article_section_3 {
-  background-color: white;
-  height: 70em;
+  display: grid;
+  grid-template-columns: 71% 29%;
+  grid-gap: 20px;
+  width: 1100px;
   margin: 0 auto;
-  margin-bottom: 40px;
-  position: relative;
-  top: -15px;
-  width: 90%;
 }
 
 .article_section_3a {
-  background-color: white;
   color: black;
-  float: left;
-  height: 70em;
-  margin: 0;
-  margin-right: 30px;
   text-align: left;
-  width: 72%;
+}
+
+.thumbs-section-3a {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .article_section_3b {
-  background-color: white;
   color: black;
-  float: right;
-  height: 70em;
-  margin: 0;
   text-align: left;
-  width: 25%;
+  padding-right: 20px;
 }
 
-.thumbnail {
-  background-color: white;
-  float: left;
-  height: 38%;
-  margin: 10px;
-  width: calc(33.3333% - 20px);
+.recirc-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+.meta-text {
+  color: gray;
+}
+
+.recirc-subtitle {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 17px;
+  font-weight: normal;
+}
+
+.date-info {
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
 }
 
 .thumbnail img {
-  height: 14em;
   width: 100%;
 }
 
 .footer {
-  background-color: white;
-  clear: both;
-  height: 38em;
-  left: 2px;
   margin: 0 auto;
-  margin-top: 100px;
-  position: relative;
   text-align: left;
-  top: 300px;
-  width: 90%;
+  width: 1100px;
 }
 
 .links_header img {
@@ -316,10 +319,16 @@ li .buttons_sub {
   text-decoration: none;
 }
 
-.line_breaks {
-  font-weight: bolder;
-  line-height: 0.2px;
-  margin-top: 2px;
+.line_breaks1 {
+  border-top: 2px double gainsboro;
+}
+
+.line_break {
+  height: 1px;
+}
+
+.line_breaks2 {
+  border-top: 0.5px double gainsboro;
 }
 
 .lb_1 {
@@ -329,7 +338,10 @@ li .buttons_sub {
 
 .end_of_page__links_container {
   clear: both;
-  font-size: 14px;
+  display: grid;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
 .end_of_page__links {
@@ -338,7 +350,6 @@ li .buttons_sub {
   height: 32em;
   margin: 10px;
   text-align: left;
-  width: 15%;
 }
 
 .end_of_page__links p {
@@ -358,14 +369,14 @@ a:hover {
 }
 
 .more_links {
-  clear: both;
-  padding-bottom: 55px;
   text-align: center;
+  padding-bottom: 60px;
 }
 
 .more_links a {
   color: grey;
-  font-size: small;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
   text-decoration: none;
 }
 
@@ -422,9 +433,7 @@ hr {
   background-color: white;
   border-top: 1px solid black;
   bottom: 0;
-  height: 37px;
   left: 0;
-  padding-top: 18px;
   position: fixed;
   right: 0;
   text-align: center;
@@ -453,4 +462,8 @@ hr {
 
 .expand-icon {
   color: black;
+}
+
+.space {
+  height: 16px;
 }
