@@ -255,8 +255,8 @@ li .buttons_sub {
   display: grid;
   grid-template-columns: 71% 29%;
   grid-gap: 20px;
-  width: 1100px;
   margin: 0 auto;
+  width: 1100px;
 }
 
 .article_section_3a {
@@ -272,8 +272,8 @@ li .buttons_sub {
 
 .article_section_3b {
   color: black;
-  text-align: left;
   padding-right: 20px;
+  text-align: left;
 }
 
 .recirc-title {
@@ -369,8 +369,8 @@ a:hover {
 }
 
 .more_links {
-  text-align: center;
   padding-bottom: 60px;
+  text-align: center;
 }
 
 .more_links a {
